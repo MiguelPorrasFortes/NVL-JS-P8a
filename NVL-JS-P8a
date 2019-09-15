@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>NVL-JS-P8a</title>
+  </head>
+  <body>
+      <script type="text/javascript" >
+        // Primera forma de obtener "amigo"
+        alert(friend.toLowerCase(0));
+        // Segunda forma de obtener "amigo"
+         alert(friend.replace("A","a")); 
+         // Tercera forma de obtener "amigo"
+        var friend = "Amigo";
+        var quavo = friend.slice(1,5);
+        alert("a"+quavo);      
+    </script>
+  </body>
+</html>
+        
+
+        
+  
